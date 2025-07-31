@@ -1,8 +1,8 @@
 <?php
-session_start();
+    require('session.php');
 
     $number = $_SESSION['number'] ;
 
-    for($i=1; $i <= $number; $i ++){
-       echo str_repeat('*',$i) . '<br>';
+    for($star=1; $star <= $number; $star++){
+       echo str_repeat('*',$star) . '<br>';
     }

@@ -1,2 +1,6 @@
 You Input 20 stars
 You Input 5 stars
+You Input 500 stars
+You Input 5 stars
+You Input 5 stars
+You Input 50 stars

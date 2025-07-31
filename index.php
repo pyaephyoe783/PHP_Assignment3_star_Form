@@ -1,6 +1,7 @@
 <?php
 
-    session_start();
+    require('session.php');
+    
     if($_SERVER['REQUEST_METHOD']=="POST"){
         $number = $_POST['number'];
         $_SESSION['number']=$number;
